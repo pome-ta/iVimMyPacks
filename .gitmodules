@@ -1,6 +1,0 @@
-[submodule "vimdoc-ja"]
-[submodule "start/"]
-	path = start/
-	url = https://github.com/vim-jp/vimdoc-ja
-[submodule "start/vimdoc-ja"]
-[submodule "start/iceberg.vim"]
