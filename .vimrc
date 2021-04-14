@@ -23,6 +23,7 @@ set noundofile
 set noswapfile
 set nobackup
 set ambiwidth=double
+
 " スペース表示
 set list
 set listchars=tab:»-,trail:-,nbsp:%
