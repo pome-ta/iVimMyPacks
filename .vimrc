@@ -79,31 +79,14 @@ endfunction
 
 
 
-hi User1 guibg=#cc3768 guifg=#cdd1e6
-hi User2 guibg=#2a3158 guifg=#cdd1e6
-hi User3 guibg=#c57339 guifg=#ccd1e6
-hi User4 guibg=#668e3d guifg=#cdd1e6
-"
-"hi User1 guibg=indianred guifg=white
-"hi User2 guibg=royalblue guifg=white
-"hi User3 guibg=coral guifg=white
-"hi User4 guibg=SeaGreen guifg=white
-"
-" desert スキーム調整
-"   行表示番号の色
-""hi LineNr guifg=grey40
-"   該当行強調色
-""hi CursorLineNr guifg=grey
-"   ディレクトリ候補選択色
-""hi WildMenu guibg=gold
-"   不可視テキスト色のリセットと調整
-""hi NonText None
-""hi NonText guifg=grey30
-"   背景色
-""hi Normal guifg=grey90 guibg=#122132
-"   コメント色
-""hi comment guifg=grey60
-
+hi User1 guibg=#cc3768 guifg=#cdd1e6 
+"Insert 赤系
+hi User2 guibg=#2a3158 guifg=#cdd1e6 
+"Normal 青系
+hi User3 guibg=#c57339 guifg=#ccd1e6 
+"Replace 橙系
+hi User4 guibg=#668e3d guifg=#cdd1e6 
+"Visual 緑系
 
 " status line 設置
 set statusline=%!SetStatusLine()
@@ -117,4 +100,15 @@ inoremap " ""<LEFT>
 inoremap [ []<LEFT>
 inoremap ` ``<LEFT>
 inoremap < <><LEFT>
+
+
+" 表示行単位で上下移動するように
+nnoremap j gj
+nnoremap k gk
+nnoremap <Down> gj
+nnoremap <Up>   gk
+" 逆に普通の行単位で移動したい時のために逆の map も設定しておく
+nnoremap gj j
+nnoremap gk k
+
 
