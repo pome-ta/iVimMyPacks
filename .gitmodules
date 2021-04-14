@@ -4,3 +4,6 @@
 [submodule "iceberg.vim"]
 	path = iceberg.vim
 	url = https://github.com/cocopon/iceberg.vim
+[submodule "elly.vim"]
+	path = elly.vim
+	url = https://github.com/ulwlu/elly.vim
