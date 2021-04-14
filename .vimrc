@@ -67,10 +67,21 @@ else
 endif
 return '%' . c . '* [' . mode_name . '] %* %<%F%=%m%r %([%l/%L]%)%{strftime(" %m/%d_%H:%M")}'
 endfunction
-hi User1 guibg=#53343b guifg=#cdd1e6
+
+
+
+" --- iceberg 向け --- "
+""hi User1 guifg=#cbcfda guibg=#cc517a  "Insert  赤系
+""hi User2 guifg=#cbcfda guibg=#2d539e  "Normal  青系
+""hi User3 guifg=#cbcfda guibg=#668e3d  "Replace 橙系
+""hi User4 guifg=#cbcfda guibg=#4d7f43  "Visual  緑系
+
+
+
+hi User1 guibg=#cc3768 guifg=#cdd1e6
 hi User2 guibg=#2a3158 guifg=#cdd1e6
-hi User3 guibg=#3e445e guifg=#ccd1e6
-hi User4 guibg=#384851 guifg=#cdd1e6
+hi User3 guibg=#b6662d guifg=#ccd1e6
+hi User4 guibg=#598030 guifg=#cdd1e6
 "
 "hi User1 guibg=indianred guifg=white
 "hi User2 guibg=royalblue guifg=white
