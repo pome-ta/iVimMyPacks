@@ -80,8 +80,8 @@ endfunction
 
 hi User1 guibg=#cc3768 guifg=#cdd1e6
 hi User2 guibg=#2a3158 guifg=#cdd1e6
-hi User3 guibg=#b6662d guifg=#ccd1e6
-hi User4 guibg=#598030 guifg=#cdd1e6
+hi User3 guibg=#c57339 guifg=#ccd1e6
+hi User4 guibg=#668e3d guifg=#cdd1e6
 "
 "hi User1 guibg=indianred guifg=white
 "hi User2 guibg=royalblue guifg=white
