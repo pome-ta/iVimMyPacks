@@ -1,10 +1,9 @@
 set number
 
-"set packpath+=$HOME/vimfiles/.vim
-set rtp+=$HOME/vimfiles/.vim
-
-
+" 日本語help
+set rtp+=$HOME/iVimMyPacks/vimdoc-ja
 set helplang=ja,en
-
+" colorscheme
+set rtp+=$HOME/iVimMyPacks/iceberg.vim
 color iceberg
 
