@@ -39,5 +39,8 @@ source $HOME/iVimMyPacks/.vimrc
 - iVimMyPacks側の`.vimrc` の追記
   - help のみfont-size 変更
   - 拡張子ごとに挙動変更
-
+- vimdoc-ja バージョン違い
+  - Vim9 script 対応とか結構違う、バージョンで管理できる？
+    - 8.2 -> vimdoc-ja
+    - 8.1 -> iVim
 
