@@ -11,9 +11,7 @@ set helplang=ja,en
 
 " colorscheme plugin
 set rtp+=$HOME/iVimMyPacks/iceberg.vim
-set rtp+=$HOME/iVimMyPacks/elly.vim
 color iceberg
-"color elly
 
 set number
 set clipboard+=unnamed
