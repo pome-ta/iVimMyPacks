@@ -109,4 +109,3 @@ nnoremap <Up>   gk
 nnoremap gj j
 nnoremap gk k
 
-
