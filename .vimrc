@@ -4,6 +4,35 @@ syntax enable
 set encoding=utf-8
 scriptencoding utf-8
 
+
+
+isete insert {'buttons':[
+     \{'keys':[{'title':'/','type':'insert','contents':'/'}]
+     \}],'locations':[2]}
+
+isete append {'buttons':[
+     \{'keys':[{'title':'`','type':'insert','contents':'`'}]
+     \}],'locations':[2]}
+
+isete append {'buttons':[
+     \{'keys':[{'title':'|','type':'insert','contents':'|'}]
+     \}],'locations':[2]}
+
+isete append {'buttons':[
+     \{'keys':[{'title':'\','type':'insert','contents':'\'}]
+     \}],'locations':[2]}
+
+
+isete append {'buttons':[
+     \{'keys':[{'title':'~','type':'insert','contents':'~'}]
+     \}],'locations':[2]}
+
+isete insert {'buttons':[
+     \{'keys':[{'title':'▶︎','type':'insert','contents':'!python3 \%'}]
+     \}],'locations':[10]}
+
+
+
 " 日本語help
 set rtp+=$HOME/iVimMyPacks/vimdoc-ja
 " 日本語メイン、無いなら英語
