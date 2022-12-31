@@ -43,3 +43,8 @@ source $HOME/iVimMyPacks/.vimrc
     - 8.2 -> vimdoc-ja
     - 8.1 -> iVim
 
+## memo
+
+jetpack で管理できるんか？
+
+
