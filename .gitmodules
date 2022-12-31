@@ -1,9 +1,3 @@
-[submodule "vimdoc-ja"]
-	path = vimdoc-ja
-	url = https://github.com/vim-jp/vimdoc-ja
-[submodule "iceberg.vim"]
-	path = iceberg.vim
-	url = https://github.com/cocopon/iceberg.vim
 [submodule "vim-jetpack"]
 	path = vim-jetpack
 	url = https://github.com/tani/vim-jetpack.git

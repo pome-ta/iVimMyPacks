@@ -32,6 +32,17 @@ isete insert {'buttons':[
      \}],'locations':[10]}
 
 
+packadd vim-jetpack
+call jetpack#begin()
+Jetpack 'tani/vim-jetpack', {'opt': 1} "bootstrap
+
+Jetpack 'vim-jp/vimdoc-ja'
+Jetpack 'cocopon/iceberg.vim'
+call jetpack#end()
+
+
+let g:jetpack_copy_method = 'copy'
+let g:jetpack_download_method = 'curl'
 
 " 日本語help
 set rtp+=$HOME/iVimMyPacks/vimdoc-ja
