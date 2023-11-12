@@ -28,7 +28,7 @@ isete append {'buttons':[
      \}],'locations':[2]}
 
 isete insert {'buttons':[
-     \{'keys':[{'title':'▶︎','type':'insert','contents':'!python3 \%'}]
+     \{'keys':[{'title':'▶︎','type':'insert','contents':':!python3 \%'}]
      \}],'locations':[10]}
 
 
