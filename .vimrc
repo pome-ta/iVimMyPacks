@@ -4,8 +4,7 @@ syntax enable
 set encoding=utf-8
 scriptencoding utf-8
 
-
-
+" iVim keysetting
 isete insert {'buttons':[
      \{'keys':[{'title':'/','type':'insert','contents':'/'}]
      \}],'locations':[2]}
@@ -21,7 +20,6 @@ isete append {'buttons':[
 isete append {'buttons':[
      \{'keys':[{'title':'\','type':'insert','contents':'\'}]
      \}],'locations':[2]}
-
 
 isete append {'buttons':[
      \{'keys':[{'title':'~','type':'insert','contents':'~'}]
@@ -68,7 +66,7 @@ set smartcase " もし検索パターンに大文字があれば大文字小文�
 set hlsearch " 検索結果のハイライトする
 
 "-----タブ・インデント関連-----
-set smartindent " スマートインデント 
+set smartindent " スマートインデント
 set tabstop=2 " タブの空白数
 set autoindent " 改行時のインデントを継続する
 set expandtab " タブの挿入時に空白を入れる
@@ -106,13 +104,13 @@ endfunction
 
 
 
-hi User1 guibg=#cc3768 guifg=#cdd1e6 
+hi User1 guibg=#cc3768 guifg=#cdd1e6
 "Insert 赤系
-hi User2 guibg=#2a3158 guifg=#cdd1e6 
+hi User2 guibg=#2a3158 guifg=#cdd1e6
 "Normal 青系
-hi User3 guibg=#c57339 guifg=#ccd1e6 
+hi User3 guibg=#c57339 guifg=#ccd1e6
 "Replace 橙系
-hi User4 guibg=#668e3d guifg=#cdd1e6 
+hi User4 guibg=#668e3d guifg=#cdd1e6
 "Visual 緑系
 
 " status line 設置
