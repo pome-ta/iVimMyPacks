@@ -4,6 +4,8 @@ syntax enable
 set encoding=utf-8
 scriptencoding utf-8
 
+set guifont=Source\ Code\ Pro:h9.6
+
 " iVim keysetting
 isete insert {'buttons':[
      \{'keys':[{'title':'/','type':'insert','contents':'/'}]
